@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 27 Dec 2023 15:50:41 at https://rollingstones.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://rollingstones.com/ -O1 "C:\My Web Sites\tpp" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:51:38	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://rollingstones.com/)
+15:53:20	Error: 	"Not Found" (404) at link https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/ajax-loader.gif (from https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/style.css)
+15:53:20	Error: 	"Not Found" (404) at link https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/fonts/slick.eot (from https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/style.css)
+15:53:20	Error: 	"Not Found" (404) at link https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/fonts/slick.eot? (from https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/style.css)
+15:53:20	Error: 	"Not Found" (404) at link https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/fonts/slick.woff (from https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/style.css)
+15:53:20	Error: 	"Not Found" (404) at link https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/fonts/slick.ttf (from https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/style.css)
+15:53:20	Error: 	"Not Found" (404) at link https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/fonts/slick.svg (from https://rollingstones.com/wp-content/themes/rollingstonesofficial/assets/scss/style.css)
+15:56:07	Warning: 	Retry after error -5 (Unable to get server's address: Host desconocido. ) at link wwwrollingstones.wpengine.netdna-cdn.com/files/2018/11/RW2.jpg (from https://rollingstones.com/news/hello-world/)
+15:56:07	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link wwwrollingstones.wpengine.netdna-cdn.com/files/2018/11/RW2.jpg (from https://rollingstones.com/news/hello-world/)
+15:56:07	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link wwwrollingstones.wpengine.netdna-cdn.com/files/2018/11/RW2.jpg (from https://rollingstones.com/news/hello-world/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 26 seconds : 477 links scanned, 465 files written (58078729 bytes overall) [55411840 bytes received at 169974 bytes/sec], 3966139 bytes transferred using HTTP compression in 175 files, ratio 27%, 21.5 requests per connection
+(8 errors, 2 warnings, 0 messages)
